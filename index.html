@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+</head>
+<body>
+
+    <header>
+        <div>WOMEN'S SAFETY APP INITIAL IDEAS</div>
+
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance List</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#misc">Miscellaneous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Brainstorming Session</h1>
+        <h2>Sunday, October 3rd</h2>
+
+        <h3 id="attendance">Attendance List</h3>
+
+        <ul>
+            <li><input type="checkbox" /> Vivian</li>
+            <li><input type="checkbox" /> Emily</li>
+            <li><input type="checkbox" /> Sydnie</li>
+            <li><input type="checkbox" /> Alan</li>
+            <li><input type="checkbox" /> Sabrina</li>
+            <li><input type="checkbox" /> Jimmy</li>
+            <li><input type="checkbox" /> Ashley</li>
+            <li><input type="checkbox" /> Gerald</li>
+            <li><input type="checkbox" /> Mimi</li>
+            <li><input type="checkbox" /> Alexia</li>
+        </ul>
+
+        <h4 id="agenda">Agenda</h4>
+
+        <section>
+            <h5>Today</h5>
+            <ol>
+                <li>General Updates</li>
+                <li>Schedule Coordination</li>
+                <li>Individual Updates</li>
+                <li>List of Features</li>
+                    <ul>
+                        <li><b>SOS Button</b></li>
+                        <details>
+                            <summary>Details</summary>
+                            Click on the button to notify emergency contacts of your location.
+                        </details>
+                        <li>Emergency Contacts</li>
+                        <li>Live Feed</li>
+                    </ul>
+            </ol>
+        </section>
+
+
+        <section>
+            <h6><i>Old Business</i></h6>
+            <ul>
+                <li>Add group member emails</li>
+                    <ul>
+                        <li><a href="mailto:h123i189@ucsd.edu">Vivian's Email</a></li>
+                    </ul>
+            </ul>
+        </section>
+        
+        <section>
+            <h7>New Business</h7>
+            <img
+                src="media/mockup.png"
+                alt="app-mockup"
+                width="700"
+            />
+            <ul>
+                <li>Create mockups<strong> (Everyone)</strong></li>
+                <li>Come up with color scheme</li>
+                <li>Choose fonts</li>
+                <li>Figure out what tools we want to use</li>
+                <li>Inspiration from these existing apps:</li>
+
+
+            </ul>
+        </section>
+
+        <section>
+            <h8 id="misc">Miscellaneous</h8>
+            <ul>
+                <li>Existing Women's Safety Apps</li>
+                <li>New meeting time: 7pm</li>
+                <li>Quote of the day:</li>
+            </ul>
+
+            <p>"Happiness is not something really made. It comes from <em>your own actions</em>." <br>
+                - Dalai Lama
+            </p>
+        </section>
+
+        <video controls width="700">
+
+            <source src="media/video1212246651.mp4"
+                    type="video/mp4">
+
+        </video>
+
+        <figure>
+            <figcaption>Audio from the video:</figcaption>
+            <audio
+                controls
+                src="/media/audio1212246651.m4a">
+            </audio>
+        </figure>
+
+        <form>
+            <fieldset>
+                <label for="group">Group Member Info</label><br>
+
+                <textarea id="group" name="group" rows="1" cols="70">
+                Fill out this form so we can get to know each team member better. 
+                </textarea><br><br>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+
+
+
+                <label for="ice-cream-choice">Choose an ice cream brand:</label>
+                <input list="ice-cream-brands" id="ice-cream-choice" name="ice-cream-choice" />
+
+                <datalist id="ice-cream-brands">
+                    <option value="Ben & Jerry's">
+                    <option value="Breyers">
+                    <option value="Blue Bell">
+                </datalist><br><br>
+
+                <input type="radio" id="java" name="fav_language" value="java">
+                <label for="java">java</label><br>
+                <input type="radio" id="python" name="fav_language" value="python">
+                <label for="python">Python</label><br>
+                <input type="radio" id="c++" name="fav_language" value="c++">
+                <label for="c++">C++</label><br><br>
+
+                <input type="checkbox" id="classes" name="class1" value="CSE110">
+                <label for="class1"> Taking CSE 110</label><br>
+                <input type="checkbox" id="classes" name="class2" value="CSE101">
+                <label for="class2"> Taking CSE 101</label><br>
+                <input type="checkbox" id="classes" name="class3" value="MATH109">
+                <label for="class3"> Taking MATH 109</label><br><br>
+
+                <button type="submit">Submit!</button>
+            </fieldset>
+        </form>
+        <label for="geisel">Choose a floor on geisel to meet at:</label>
+        <select name="geisel" id="geisel" form="geiselfloor">
+            <option value="1st">1st</option>
+            <option value="2nd east">2nd east</option>
+            <option value="2nd west">2nd west</option>
+            <option value="6th">6th</option>
+        </select>
+    </main>
+
+    <footer>
+        <span>Team Mango Matcha</span>
+        <span>at Sixth Market</span>
+        <img
+            src="media/mango-matcha.jpg"
+            alt="mango-matcha"
+            width="100"
+        />
+    </footer>
+    
+</body>
+</html>
