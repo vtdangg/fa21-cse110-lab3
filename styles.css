@@ -1,4 +1,39 @@
 body{ 
     background-color: rgb(221, 192, 221);
 }
+ul li {
+    margin: 1px 5px;
 
+}
+
+img{
+    border-style: solid;
+    border-width: 1pc;
+    border-radius: 5pt;
+    border-color: #af6eae;
+    margin-top: 10vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    margin-bottom: 10vh;
+}
+video {
+    margin-top: 10vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    margin-bottom: 10vh;
+}
+
+figure{
+    margin: auto;
+}
+
+form label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+figure{
+    padding: 1px 20px 50px 20px;
+}
