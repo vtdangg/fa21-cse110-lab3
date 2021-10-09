@@ -1,1 +1,1 @@
-HTML meeting minutes website: https://vtdangg.github.io/fa21-cse110-lab3/
+HTML meeting minutes website + CSS edits: https://vtdangg.github.io/fa21-cse110-lab3/
