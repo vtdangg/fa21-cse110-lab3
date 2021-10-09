@@ -1,12 +1,15 @@
+/* add a font*/
 @font-face {
     font-family: "Roboto";
     src: url(fonts/Roboto/Roboto-Black.ttf);
   }
 
+/* changing background color */
 body{ 
     background-color: rgb(221, 192, 221);
 }
 
+/* create box model */
 ul li {
     margin: 1px 5px;
 
@@ -46,6 +49,7 @@ figure{
 }
 
 
+/* Positioning and Layout */
 h4{
     text-decoration: underline;
     color: hsl(301, 0%, 24%);
