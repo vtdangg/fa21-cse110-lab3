@@ -1,12 +1,17 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+  }
+
 body{ 
     background-color: rgb(221, 192, 221);
 }
+
 ul li {
     margin: 1px 5px;
 
 }
-
-img{
+section img{
     border-style: solid;
     border-width: 1pc;
     border-radius: 5pt;
@@ -15,6 +20,9 @@ img{
     margin-right: 25vw;
     margin-left: 25vw;
     margin-bottom: 10vh;
+    height: 500px;
+    width: 700px;
+    position: relative;
 }
 video {
     margin-top: 10vh;
@@ -22,18 +30,70 @@ video {
     margin-left: 25vw;
     margin-bottom: 10vh;
 }
-
 figure{
+    max-width: 200px;
+    max-height: 150px;
     margin: auto;
 }
-
 form label{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 20px;
 }
-
 figure{
     padding: 1px 20px 50px 20px;
 }
+
+
+h4{
+    text-decoration: underline;
+    color: hsl(301, 0%, 24%);
+    text-align: center;
+
+}
+
+footer{
+    display: block;
+    text-align: left;
+}
+
+section ol{
+    display: block;
+}
+
+#geisel{
+    display: none;
+}
+
+.block{
+    position: static;
+}
+
+header nav ul li:link{
+    color: blue;
+}
+header nav ul li:visited{
+    color: #ffc0cb;
+}
+header nav ul li:hover{
+    color: rgba(255, 192, 203, 0.466);
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    row-gap: 10px;
+
+    font-family: "Roboto", Roboto, s;
+  }
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px){
+      body{
+          background-color: cadetblue;
+      }
+  }
